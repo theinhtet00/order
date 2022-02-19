@@ -1,0 +1,17 @@
+### get all orders
+GET http://localhost:5000/orders
+
+### get one order by id
+GET http://localhost:5000/orders/2
+
+
+### create an order
+POST http://localhost:5000/orders
+Content-Type: application/json
+
+{
+    "item": "beer",
+    "quantity": 3
+}
+
+
